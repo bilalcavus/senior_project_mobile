@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:senior_project_mobile/view/anasayfa.dart';
+import 'package:senior_project_mobile/view/bottom_nav_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Anasayfa(),
+      home: const BottomNavBar(),
     );
   }
 }
