@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:senior_project_mobile/components/custom_appbar.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
@@ -10,6 +11,9 @@ class SearchPage extends StatefulWidget {
 class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  Scaffold(
+      appBar: CustomAppBar().customAppBar("İlan Ara"),
+      body: Container(),
+    );
   }
 }
