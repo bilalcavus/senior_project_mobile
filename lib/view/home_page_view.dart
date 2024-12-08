@@ -93,6 +93,7 @@ class _HomePageViewState extends State<HomePageView> {
             },
             backgroundColor: Colors.red, // FAB'in kendisinin rengi
             child: const Icon(Icons.add),
+            shape: CircleBorder(),
           ),
         ),
       );
