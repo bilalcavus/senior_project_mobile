@@ -25,7 +25,7 @@ class _HomePageViewState extends State<HomePageView> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: const Color(0xffEF2A39),
-          title: const Text(TextStrings.appBarTitle),
+          title: const Text(TextStrings.homeAppBarTitle),
           centerTitle: true,
         ),
         body: SingleChildScrollView(
